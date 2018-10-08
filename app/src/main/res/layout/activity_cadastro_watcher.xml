@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_base">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="9dp">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="154dp"
+                    android:background="@drawable/seta_esq_dark"
+                    android:padding="150dp" />
+
+                <TextView
+                    android:id="@+id/txtEntrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="90dp"
+                    android:text="WATCHER"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="36dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="200dp">
+
+                <EditText
+                    android:id="@+id/edtId"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:backgroundTint="@color/blue"
+                    android:hint="Watcher ID"
+                    android:inputType="text"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/lightgray"
+                    android:padding="20dp"/>
+
+                <Button
+                    android:id="@+id/buttonAddWatcher"
+                    android:layout_width="340dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="150dp"
+                    android:background="@color/green"
+                    android:onClick="entrar"
+                    android:text="ADICIONAR WATCHER"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RelativeLayout android:layout_width='match_parent'
+    android:layout_height='match_parent'
+    android:background="@drawable/background_login"
+    xmlns:android='http://schemas.android.com/apk/res/android'
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="9dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="200dp">
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:hint="E-mail"
+                android:inputType="text"
+                android:textColor="@color/blue"
+                android:textColorHint="@color/lightgray"
+                android:padding="20dp"/>
+
+            <EditText
+                android:id="@+id/edtSenha"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:textColor="@color/lightgray"
+                android:textColorHint="@color/lightgray"
+                android:padding="20dp"/>
+
+            <TextView
+                android:id="@+id/txtTemperatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ou crie sua conta e comece agora mesmo"
+                android:textColor="#636E72"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/txtCriarConta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp"
+                android:text="Criar conta"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:onClick="onClick"
+                android:clickable="true"/>
+
+            <Button
+                android:id="@+id/btnEntrar"
+                android:layout_width="340dp"
+                android:layout_height="70dp"
+                android:background="@color/green"
+                android:onClick="entrar"
+                android:text="ENTRAR"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

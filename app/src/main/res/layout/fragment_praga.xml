@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mosca Branca"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="A mosca branca é uma das pragas causadoras de prejuízos à cultura da soja e do algodoeiro no estado do Mato Grosso. Ao sugar a seiva das plantas, os adultos e ninfas provocam alterações no desenvolvimento vegetativo e reprodutivo da planta, debilitando-a e reduzindo sua produtividade.
+
+A biologia da mosca branca é complicada pela aparente existência de diferentes biótipos, cujo significado evolutivo e prático continua pouco esclarecido. No Brasil existem diferentes biótipos de B. tabaci e a B. argentifolii (também chamada de Biótipo B da B. tabaci), cuja separação só é possível de ser feita através de marcadores moleculares ou técnicas especiais de criação.
+
+Os adultos medem 0,8mm de comprimento e, aparentemente, são de coloração geral branca, mas apresentam asas brancas e corpo amarelo. Sob condições climáticas favoráveis, seu ciclo de vida pode ser de duas a quatro semanas, podendo produzir até 15 gerações por ano. Localizam-se, preferencialmente, na face inferior das folhas, onde ovipositam, em média, 150 a 300 ovos por fêmea. A preferência para oviposição em algodão é afetada pela estrutura da folha, pela gravidade (positiva) e pela luz (negativa, exceto para adultos em voo). Outros fatores que podem estar envolvidos são interações entre gravidade, luz, estruturas foliares, condições ambientais e inimigos naturais. A temperatura é o principal agente externo que influencia a metamorfose progressiva da mosca branca, fazendo com que o seu ciclo de vida possa variar de 15 a 24 dias. As ninfas apresentam coloração verde-amarelado e passam por quatro instares. A ninfa de 1º instar é móvel, ou seja, apresenta pernas e é capaz de se mover na folha ou planta. Já a partir do 2º instar, as ninfas perdem as pernas e são imóveis. Permanecem dessa forma até a emergência do adulto. A partir do 3º instar, as ninfas são facilmente visíveis, assemelhando-se a cochonilhas. As ninfas das moscas brancas do gênero Bemisia caracterizam-se por não terem franjas formadas por filamentos ceráceos ao redor do corpo."
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704234032762",
+    "firebase_url": "https://watcherbytrillage.firebaseio.com",
+    "project_id": "watcherbytrillage",
+    "storage_bucket": "watcherbytrillage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704234032762:android:3ad21991b9c19ad1",
+        "android_client_info": {
+          "package_name": "com.example.gustavo.techsoybean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704234032762-2pc4hq4978ifikb1elctqlqhtknbnp4r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gustavo.techsoybean",
+            "certificate_hash": "beb224284730e1ec2ea6857c4e52af0c0438cd6c"
+          }
+        },
+        {
+          "client_id": "704234032762-m77g7tj8hi8503kf798qhg2icq7uv957.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYfR9DX5yGs9faY52aWMUnBGWO8QA633E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704234032762-m77g7tj8hi8503kf798qhg2icq7uv957.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

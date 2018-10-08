@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/geral" android:title="Geral" android:icon="@drawable/drawer_geral"/>
+    <item android:id="@+id/mapeamento" android:title="Mapeamento" android:icon="@drawable/drawer_mapeamento"/>
+    <item android:id="@+id/biblioteca" android:title="Biblioteca" android:icon="@drawable/drawer_biblioteca"/>
+    <item android:id="@+id/parceiros" android:title="Parceiros" android:icon="@drawable/drawer_parceiros"/>
+    <item android:id="@+id/perfil" android:title="Perfil" android:icon="@drawable/drawer_perfil"/>
+
+</menu>
